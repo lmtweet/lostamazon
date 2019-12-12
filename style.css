@@ -1,0 +1,664 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background:#F9F0E4;
+  margin: 0;
+  padding: 0;
+}
+main{
+  margin-top:2vw;
+  margin-left:4vw;
+  margin-right: 4vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 1280px;
+  font-size: 24px;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+h4,
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  font-weight: 400;
+  color: #2A4024;
+}
+p{
+  margin: 2vw;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #2A4024;
+  size:1vw;
+  font-weight: 400;
+  line-height: 130%;
+}
+.content{
+  width: 50%;
+  position:center;
+ 
+}
+.introductionfigure{
+height:50%;
+}
+h1 {
+  align-content: center;
+  padding: auto;
+  margin: 0;
+  font-weight: 400;
+}
+div h1{
+  font-family: AlvaroCondensed, Alvaro;;
+  font-size: 4vw;
+  color: #4E6845;
+  text-align: center;
+  margin:20px;
+
+}
+a,
+a:visited{
+  size: 30%;
+  width: 500px;
+  color: #2A4024;
+  text-decoration: none;
+
+}
+ul{
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-right :16px;
+  margin-left: 16px;
+  list-style:none;
+  
+}
+nav {
+  position:center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f3f3f3;
+  padding: 1rem;
+  padding-right: 5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-decoration: none;
+  text-align:center;
+}
+.nav-button{
+  width: 100%;
+  height: 50%;
+  border: none;
+  margin-top: 20px;
+  font-size: 2vw;
+  font-family: AlvaroCondensed, Alvaro;
+  background-color: #BF5111;
+  color: #F9F0E4;
+  position: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-size-adjust: auto;
+  display:flex;
+  text-align: center;
+  border-radius: 70px;
+}
+.nav-menu{
+  width: 80%;
+  background-color: #F9F0E4;
+  margin-bottom: 1rem;
+  margin-top:1rem;
+  margin-left: 140px;
+  margin-right:140px;
+  position: absolute;
+
+}
+.floweringplants{
+  display: flex;
+  flex-direction: column;
+}
+.graphic{
+  height: 400px;
+  transition: 5s;
+  animation: fade 2s ease;
+
+}
+.explore{
+  width: 100%;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.nav__examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.nav__examples > * {
+  margin-right: 0.5rem;
+}
+
+#intro {
+  max-width: 40rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.intro__hed {
+  background-position:center;
+  background-repeat: no-repeat;
+  height: 50%;
+  padding:126px;
+  font-size: 2em;
+  margin-top: 1rem;
+  margin-left:140px;
+  margin-right:140px;
+  
+
+}
+
+.group_hed{
+  display:flex;
+  width:100%;
+}
+
+.intro__dek {
+  text-align: center;
+  color: #2A4024;
+  margin-top: 2vw;
+
+}
+.biodiversityloss{
+  text-align: center;
+  color: #2A4024;
+  font-size: 2vw;
+  margin-top: 1vw;
+  padding-left: 5vw;
+  padding-right:5vw;
+
+}
+
+.angiosperm {
+ margin: 30px;
+ padding: 30px;
+ align-content: center;
+ display: flex;
+  animation: octocat-wave 3s ease-in-out;
+}
+
+@keyframes octocat-wave {
+   }
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+.deltoid{
+  width: 500px;
+  transform: translate(50%,50%);
+  transition: 2 all ease;
+  }
+  .deltoid::before{
+    width: 0px;
+
+  }
+  .deltoid:hover::before{
+    width: 500px;
+  }
+  .deltoid-leaf1{
+    animation: deltoid-spurge 0.5s;
+    animation-iteration-count: 1;
+    transition:ease;
+    
+  }
+  
+  .deltoid-leaf2{
+    animation: deltoid-spurge 0.5s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf3{
+    animation: deltoid-spurge 0.55s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf4{
+    animation: deltoid-spurge 0.75s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf5{
+    animation: deltoid-spurge 0.75s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf6{
+    animation: deltoid-spurge 0.8s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf7{
+    animation: deltoid-spurge 0.8s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf8{
+    animation: deltoid-spurge 0.9s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf9{
+    animation: deltoid-spurge 0.95s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf10{
+    animation: deltoid-spurge 0.6s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf11{
+    animation: deltoid-spurge 0.9s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf12{
+    animation: deltoid-spurge 0.8s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+  .deltoid-leaf13{
+    animation: deltoid-spurge 1s;
+    animation-iteration-count: 1;
+    transition:ease;
+  }  
+
+  @keyframes deltoid-spurge{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+.plant-groups{
+  padding:20px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+
+}
+.groups {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 207px;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  text-align: center;
+
+}
+#intro {
+  margin-bottom:20px;
+}
+
+#outro {
+  height: 340px;
+}
+
+@media (min-width: 840px) {
+  .nav__examples {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+}
+
+.groups:hover {
+  fill: white;
+}
+
+.flowers{
+  animation: spin 5s infinite;
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.flower-header{
+  size: 100%;
+  height: 400px;
+  position: absolute;
+  margin: 5rem;
+}
+
+.mapcontainer{
+	position: sticky;
+	top: 0;
+  height: 100vh;
+  transition: 1s;
+  cursor: pointer;
+  text-justify: left;
+}
+
+figure #CARIBBEAN:hover{
+  stroke: white;
+}
+figure #SOUTH_AMERICA:hover{
+  stroke: white;
+}
+figure #ASIA:hover{
+  stroke: white;
+}
+figure #EUROPE:hover{
+  stroke: white;
+}
+figure #AFRICA:hover{
+  stroke: white;
+}
+figure #SOUTH_AMERICA:hover{
+  stroke: white;
+}
+figure #AUSTRALISIA:hover{
+  stroke: white;
+}
+figure #NORTH_AMERICA:hover{
+  fill: black;
+}
+figure .regions{
+  position: relative;
+}
+figure .regions .overlay{
+  position: absolute;
+
+
+}
+.plantdistribution{
+  width: 400%;
+  margin-right: 16px;
+}
+.see-full{
+  background-color: #BF5111;
+  font-family:AlvaroCondensed, Alvaro;
+  color: #F9F0E4;
+  width: 30%;
+  position: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-size-adjust: auto;
+  font-size: 3vw;
+  height: 40%;
+  display:flex;
+  text-align: center;
+  text-justify: center;
+  border-radius: 70px;
+  max-height: 100px;
+  transform: translate(50%)
+}
+.see-full-bottom{
+  margin: 2vw;
+  padding: 2vw;
+  max-height: 161px;
+
+}
+.explore{
+  font-family:AlvaroCondensed, Alvaro;
+  padding-top: 20px;
+  position: center;
+  font-size:6vw;
+  color: #2a4024;
+  text-align:center;
+}
+.flowering{
+  background-color: #F9F0E4;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+}
+.milkweed{
+  background-color: #F9F0E4;
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vw;
+}
+.mapcontainer{
+  position: sticky;
+  height: 50%;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-color: #F9F0E4;
+  opacity: 1;
+  transition: ease-in-out 1s;
+
+}
+.mapcontainer.is-active{
+  opacity:0;
+}
+.plantsmap{
+  display: flex;
+  flex-direction:row;
+  padding: 2vw;
+  text-justify: center;
+}
+
+.plants{
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 50%;
+
+}
+.ran{
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 100%;
+
+}
+.maps{
+  width:100%;
+  position: sticky;
+
+}
+.exploretheclades{
+  display: flex;
+  flex-direction: column;
+  position: center;
+  text-align: center;
+  text-justify: center;
+
+}
+#family-box{
+  position: center;
+  width:100%;
+  height:40%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+}
+#family-box::-webkit-scrollbar{
+  display: none;
+}
+.card1{
+  display: inline-block;
+  max-height:375px;
+  width: 200px;
+}
+.card2{
+  display: inline-block;
+  max-height:375px;
+  width: 200px;
+  
+
+}
+.card3{
+  display: inline-block;
+  max-height:375px;
+  width: 200px;
+
+}
+.card4{
+  display: inline-block;
+  max-height:375px;
+  width: 200px;
+
+}
+.card5{
+  display: inline-block;
+  max-height:375px;
+  width: 200px;
+
+}
+.card6{
+  display: inline-block;
+  max-height:375px;
+  width: 200px;
+
+}
+.cladelabel{
+  font-family:AlvaroCondensed, Alvaro;
+  font-size: 2vw;
+  text-align:center;
+}
+.spacer{
+  height: 6vw;
+  position:center;
+  text-justify:center;
+
+}
+.link{
+  color: #bf5111;
+  text-decoration: underline;
+}
+.banner{
+  width:100%;
+}
+.stories{
+  width: 25%;
+  margin: 2rem;
+}
+
+.regionsmap{
+  background-color: #aab58c;
+}
+
+.mapcaption{
+  color: #f9f0e4;
+  position: center;
+}
+.introtext{
+  padding: 50px;
+}
+
+
+.sectionheader{
+  font-family:AlvaroCondensed, Alvaro;
+  text-align: center;
+  color: #2A4024;
+  font-size: 6vw;
+  margin-top: 2vw;
+  padding-left: 5vw;
+  padding-right:5vw;
+  padding-bottom: 0;
+}
+.sectionheader1{
+  font-family:AlvaroCondensed, Alvaro;
+  text-justify:left;
+  color: #2A4024;
+  font-size: 4vw;
+  margin: 0;
+  padding: 0;
+}
+.forestchart{
+  width:100%;
+  z-index:1;
+}
+.forestmaps{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5vw;
+}
+.overviewmap{
+  width:50%;
+}
+.forestchart1{
+  width:100%;
+  z-index: 0;
+}
+.endemics{
+  display: flex;
+  flex-direction: column;
+}
+.label{
+  font-family:AlvaroCondensed, Alvaro;
+  text-align: center;
+  color: #2A4024;
+  font-size: 3vw;
+
+}
+.projectby{
+  font-family:AlvaroCondensed, Alvaro;
+  text-align: center;
+  color: #2A4024;
+  font-size: 3vw;
+  margin-top: 2vw;
+  padding-left: 5vw;
+  padding-right:5vw;
+  padding-bottom: 0;
+}
+.methodology{
+  font-size: 15px;
+  text-justify: center;
+  text-align:center;
+  position:center;
+  color: #2A4024;
+}
+.methods{
+  position:center;
+  text-align: center;
+  font-family:AlvaroCondensed, Alvaro;
+  font-size: 2vw;
+  color: #2A4024;
+
+}
+.bottom{
+  align-items: center;
+  position:center;
+  padding-bottom: 3vw;
+
+}
